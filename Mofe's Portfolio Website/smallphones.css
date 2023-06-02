@@ -1,0 +1,29 @@
+/*Css for small phones, tablets*/
+@media(max-width: 768px;){
+    nav{
+        height: 68px;
+    }
+    h1{
+        font-size: 28px;
+    }
+
+    .about-me__info-paragragh{
+        font-size: 18px;
+    }
+    .language{
+        width: calc(100%/3);
+    }
+    .project__description--para{
+        font-size: 14px;
+    }
+    .project__description{
+        left: 30px;
+        padding-right: 30px;
+    }
+    .profile__col--1 img{
+        height: 600px;
+    }
+    .profile__details{
+        margin-left: -30px;
+    }
+}
